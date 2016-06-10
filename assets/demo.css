@@ -45,9 +45,18 @@ input[type=text] {
     width: 50%;
     padding: 12px 10px;
     box-sizing: border-box;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-right: 200px;
     margin-left: 200px;
+}
+
+input[type=submit] {
+    width: 15%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-right: 310px;
+    margin-left: 310px;
 }
 
 .form-signin {
@@ -75,14 +84,14 @@ input[type=text] {
 }
 
 .buttonS {
-    background-color: #4CAF50; /* Green */
+    background-color:#3e4750; /* Green */
     border: none;
     color: white;
     padding: 8px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
 	margin-top: -50px;
 	margin-bottom: 100px;
@@ -92,6 +101,12 @@ input[type=text] {
 .buttonX {width: 50px;}
 .button1{background-color: #3e4750;}
 
+
+input {
+  font-family: inherit;
+  color: inherit;
+  @include box-sizing(border-box);
+}
 
 .colorgraph {
   height: 7px;
