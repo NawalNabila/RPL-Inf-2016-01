@@ -13,6 +13,10 @@
 	<link rel="stylesheet" href="assets/demo.css">
 	<link rel="stylesheet" href="assets/header-basic.css">
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -54,49 +58,67 @@
     <span class="cell" data-label="Exterior">22.30 WIB</span>
      <span class="cell" data-label="Interior">CV. Bahtera</span>
      <span class="cell" data-label="Engine">Rp. 120.000</span>
-    <span class="cell" data-label="Trans"><a href="">Pilih<br>Pesan</a></span>
+    <span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
   </div>
   <div class="row">
 	<input type="radio" name="expand">
-    <span class="cell primary" data-label="Vehicle">2013 Subaru WRX STI</span>
-    <span class="cell" data-label="Exterior">Crystal Black Silica</span>
-     <span class="cell" data-label="Interior">Black</span>
-     <span class="cell" data-label="Engine">2.5L H4 Turbo</span>
-     <span class="cell" data-label="Trans">6 Speed</span>
+    <span class="cell primary" data-label="Vehicle">08.30 WIB</span>
+    <span class="cell" data-label="Exterior">18.10 WIB</span>
+     <span class="cell" data-label="Interior">CV. Sawang</span>
+     <span class="cell" data-label="Engine">Rp. 135.000</span>
+     <span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
   </div>
   <div class="row">
 	<input type="radio" name="expand">
-    <span class="cell primary" data-label="Vehicle">2013 Subaru BRZ</span>
-    <span class="cell" data-label="Exterior">Dark Grey Metallic</span>
-     <span class="cell" data-label="Interior">Black</span>
-     <span class="cell" data-label="Engine">2.0L H4</span>
-     <span class="cell" data-label="Trans">6 Speed</span>
+    <span class="cell primary" data-label="Vehicle">14.15 WIB</span>
+    <span class="cell" data-label="Exterior">23.30</span>
+     <span class="cell" data-label="Interior">CV. Mutiara Express</span>
+     <span class="cell" data-label="Engine">Rp. 199.900</span>
+     <span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
   </div>
   <div class="row">
 	<input type="radio" name="expand">
-    <span class="cell primary" data-label="Vehicle">2013 Subaru Legacy</span>
-    <span class="cell" data-label="Exterior">Satin White Pearl</span>
-     <span class="cell" data-label="Interior">Black</span>
-     <span class="cell" data-label="Engine">2.5L H4</span>
-     <span class="cell" data-label="Trans">Auto</span>
-  </div>
-  <div class="row">
-	<input type="radio" name="expand">
-    <span class="cell primary" data-label="Vehicle">2013 Subaru Legacy</span>
-    <span class="cell" data-label="Exterior">Twilight Blue Metallic</span>
-     <span class="cell" data-label="Interior">Black</span>
-     <span class="cell" data-label="Engine">2.5L H4</span>
-     <span class="cell" data-label="Trans">Auto</span>
-  </div>
-  <div class="row">
-	<input type="radio" name="expand">
-    <span class="cell primary" data-label="Vehicle">2013 Subaru Forester</span>
-    <span class="cell" data-label="Exterior">Ice Silver Metallic</span>
-     <span class="cell" data-label="Interior">Black</span>
-     <span class="cell" data-label="Engine">2.5L H4 Turbo</span>
-     <span class="cell" data-label="Trans">Auto</span>
+    <span class="cell primary" data-label="Vehicle">20.15 WIB</span>
+    <span class="cell" data-label="Exterior">05.30 WIB</span>
+     <span class="cell" data-label="Interior">CV. Thomas</span>
+     <span class="cell" data-label="Engine">Rp. 121.000</span>
+     <span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
   </div>
 </div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pilih Kursi</h4>
+        </div>
+        <div class="modal-body">
+		<p>Untuk membatalkan, klik kembali kursi yang telah dipilih.</p>
+		  <img src="setir.png" height="30" width="30"></img>
+          <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img><br><br></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img><br><br></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img><br></a>
+		  <p>*Nomor kursi dapat berubah sesuai kebijakan operator</p>
+		  
+		  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 		</div>
 
 	</body>
