@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Data Pemesanan</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- AWAL CONTENT  - hapus dari sini -->
+    <div class="container">
+    <h1><center>Daftar Pemesanan Tiket </center></h1>
+    	<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Data Pemesanan</h3>
+						<div class="pull-right">
+						</div>
+					</div>
+					<div class="panel-body">
+						<div class="container">
+	  						<form class="form-horizontal" role="form">
+	    						<div class="form-group">
+	      							<label class="control-label col-sm-1" for="ex2">Tanggal:</label>
+	      							<div class="col-sm-2">
+	        							<input type="date"class="form-control" id="ex2">
+	      							</div>
+	      							<label class="control-label col-sm-5" for="ex2">CV. Abal</label>
+	      							<div class="col-xs-4">
+	      								<img src="aa.png" class="img-thumbnail"  width="100" height="150">
+	      							</div>
+	    						</div>
+	    					</form>
+	    				</div>
+      				</div>
+					<table class="table table-hover" id="dev-table">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Name</th>
+								<th>Asal</th>
+								<th>Tujuan</th>
+								<th>Jam Keberangkatan</th>
+								<th>Keterangan</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<div class="checkbox">
+  										<label><input type="checkbox" value=""></label>
+									</div>
+								</td>
+								<td>B_blood</td>
+								<td>Banda Aceh</td>
+								<td>Meulaboh</td>
+								<td><center>08.00</center></td>
+								<td>Lunas</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="checkbox">
+  										<label><input type="checkbox" value=""></label>
+									</div>
+								</td>
+								<td>A_blood</td>
+								<td>Langsa</td>
+								<td>Medan</td>
+								<td><center>10.00</center></td>
+								<td>Belum Lunas</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="checkbox">
+  										<label><input type="checkbox" value=""></label>
+									</div>
+								</td>
+								<td>O_blood</td>
+								<td>Banda Aceh</td>
+								<td>Meulaboh</td>
+								<td><center>08.00</center></td>
+								<td>Belum lunas</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<div class="container">
+		<form class="form-horizontal" role="form">
+		    <div class="form-group">
+		    	<label class="control-label col-sm-5" for="ex2">Pilih Supir:</label>
+			    <div class="col-sm-3">
+			        <select class="form-control" id="ex2">
+			        	<option>Budiman</option>
+			        	<option>Murdani</option>
+			        	<option>Sayuti</option>
+			        	<option>Munawar</option>
+			      	</select> 
+			    </div>
+			    <div class="col-xs-4">
+			    	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Send</button>
+			    </div>
+		    </div>
+	    </form>
+	</div>
+    <!-- AKHIR CONTENT -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
