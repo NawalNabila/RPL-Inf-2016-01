@@ -10,56 +10,99 @@
       body {
         background-color: #e9ece3;
       }
+
+      .navbar-default .nav li a:hover,
+      .navbar-default .nav li a:focus{
+        color:#fed136;
+        outline:0
+      }
+
+      footer {
+        background-color : #f8f8f8;
+      }
+
     </style>
   </head>
 
   <body>
-  <!--Awal konten-->
-<div class="container">
-      <div class="row">
-      <div class="col-md-7" align="center">
-          <h3 class="fixed"> Umum </h3>
-           <br>
+  
+  <!--navigation-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#umum">HOME</a>
       </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-   
-   
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#umum">Umum</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#l300">L300</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  
+  <!--Awal konten-->
+  <section id="umum">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <br>
+          <br>
+          <h3> Umum </h3>
+          <br>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad">
+          <!-- tentang kami -->
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title"><center>Tentang Kami</center></h3>
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="https://photos-4.dropbox.com/t/2/AACIq-vdmIjm_L8NH78S4PlkijdWn66OrARJXDSLGy5d1Q/12/346801385/jpeg/32x32/1/_/1/2/Untitled-1.jpg/EJLOuqsEGJ0FIAIoAg/8AFmol9T_cNkYU9AbNrlKBq_6RyBhMT2nizu1LiHEVw?size=1280x960&size_mode=3" class="img-circle img-responsive"> </div>
-                
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="https://photos-4.dropbox.com/t/2/AACIq-vdmIjm_L8NH78S4PlkijdWn66OrARJXDSLGy5d1Q/12/346801385/jpeg/32x32/1/_/1/2/Untitled-1.jpg/EJLOuqsEGJ0FIAIoAg/8AFmol9T_cNkYU9AbNrlKBq_6RyBhMT2nizu1LiHEVw?size=1280x960&size_mode=3" class="img-circle img-responsive">
+                </div>
                 <div class=" col-md-9 col-lg-9 "> 
                   <table class="table table-user-information">
                     <tbody>
                       <tr>
-                          <td> <p>E-Tiket merupakan suatu aplikasi yang membantu para calon penumpang L300 untuk mendapatkan 
-                          tiket yang dibutuhkan tanpa harus keloket terlebih dahulu, sehingga ini akan memudahkan para calon penumpang.
-                          </p>
-                          </td>
+                        <td> <p>E-Tiket merupakan suatu aplikasi yang membantu para calon penumpang L300 untuk mendapatkan 
+                        tiket yang dibutuhkan tanpa harus keloket terlebih dahulu, sehingga ini akan memudahkan para calon penumpang.
+                        </p>
+                        </td>
                       </tr>
-                     
                     </tbody>
                   </table>
-                
                 </div>
               </div>
-            </div>
-                 
-            
+            </div>  
           </div>
 
+          <!-- kontak -->
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title"><center>Kontak</center></h3>
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ5PpDr9kHlAEcdXsK5Ys72vlmHGatfrQP6S09I7s7LIenCxwPL" class="img-circle img-responsive"> </div>
-                
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ5PpDr9kHlAEcdXsK5Ys72vlmHGatfrQP6S09I7s7LIenCxwPL" class="img-circle img-responsive"> 
+                </div>
                 <div class=" col-md-9 col-lg-9 "> 
                   <table class="table table-user-information">
                     <tbody>
@@ -73,55 +116,60 @@
                           </p>
                           </td>
                       </tr>
-                     
                     </tbody>
                   </table>
-                
                 </div>
               </div>
             </div>
-                 
-            
           </div>
-          <br>              
-          <h3 > L300 </h3>       
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="l300">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <br><br>
+          <h3> L300 </h3>
           <br>
-<div class="panel panel-info">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad">
+          <!-- pencarian L300-->
+          <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title"><center>Pencarian L300</center></h3>
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="http://shakthydoss.com/wp-content/uploads/2013/08/cartoon_detective1.png" class="img-circle img-responsive"> </div>
-                
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="http://shakthydoss.com/wp-content/uploads/2013/08/cartoon_detective1.png" class="img-circle img-responsive">
+                </div>
                 <div class=" col-md-9 col-lg-9 "> 
                   <table class="table table-user-information">
                     <tbody>
                       <tr>
-                          <td> <p> Anda dapat melakukan pencarian L300 dengan mengetikkan kota asal dan kota tujuan, tanggal keberangkatan dan jumlah tiket yang akan dipesan kemudian klik 'Cek Tiket' atau dapat juga mengikuti petunjuk yang ada di link berikut.
+                          <td> <p> Anda dapat melakukan pencarian L300 dengan mengetikkan kota asal dan kota tujuan, tanggal keberangkatan dan jumlah tiket yang akan dipesan kemudian klik <a class="list-inline quicklinks"> Cek Tiket</a> atau dapat juga mengikuti petunjuk yang ada di link <a class="list-inline quicklinks">berikut</a>.
                           </p>
                           </td>
                       </tr>
-                     
                     </tbody>
                   </table>
-                
                 </div>
               </div>
             </div>
-                 
-            
           </div>
-     
 
-                    <div class="panel panel-info">
+          <!-- harga -->
+          <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title"><center>Harga</center></h3>
             </div>
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHtj9pHX4RPeNLPWx2O2pj0y_TDU1dRROlxzXZa_cG1GiROwUjRA" class="img-circle img-responsive"> </div>
-                
                 <div class=" col-md-9 col-lg-9 "> 
                   <table class="table table-user-information">
                     <tbody>
@@ -130,25 +178,22 @@
                           </p>
                           </td>
                       </tr>
-                     
                     </tbody>
                   </table>
-                
                 </div>
               </div>
             </div>
-                 
-            
           </div>
 
+          <!-- proses booking-->
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title"><center>Proses Booking</center></h3>
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="http://www.argolis-yacht.com/main_images/general_photos/Booking-button.gif" class="img-circle img-responsive"> </div>
-                
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="http://www.argolis-yacht.com/main_images/general_photos/Booking-button.gif" class="img-circle img-responsive"> 
+                </div>
                 <div class=" col-md-9 col-lg-9 "> 
                   <table class="table table-user-information">
                     <tbody>
@@ -157,25 +202,22 @@
                           </p>
                           </td>
                       </tr>
-                     
                     </tbody>
                   </table>
-                
                 </div>
               </div>
             </div>
-                 
-            
           </div>
 
+          <!-- pembayaran -->
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title"><center>Pembayaran</center></h3>
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="http://static4.depositphotos.com/1025674/382/v/950/depositphotos_3829872-Payment.jpg" class="img-circle img-responsive"> </div>
-                
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="http://static4.depositphotos.com/1025674/382/v/950/depositphotos_3829872-Payment.jpg" class="img-circle img-responsive"> 
+                </div>
                 <div class=" col-md-9 col-lg-9 "> 
                   <table class="table table-user-information">
                     <tbody>
@@ -184,23 +226,40 @@
                           </p>
                           </td>
                       </tr>
-                     
                     </tbody>
                   </table>
-                
                 </div>
               </div>
             </div>
-                 
-            
           </div>
+
         </div>
       </div>
     </div>
+  </section>
     <!-- AKHIR CONTENT-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.12.0.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
+
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <span class="copyright">Copyright &copy; 2016 RPL-Kelompok 1</span>
+                </div>
+                
+                <div class="col-md-5">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>
