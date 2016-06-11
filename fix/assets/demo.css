@@ -1,7 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 html{
-	background-color: #34495E;
+	background-color: #81E0FF;
 }
 
 body{
@@ -23,7 +23,7 @@ body{
 
 .menu h1{
 	margin-top:0;
-	font: normal 40px/1.5 'Open Sans', sans-serif;
+	font: normal 32px/1.5 'Open Sans', sans-serif;
 	color: #3F71AE;
 	padding-bottom: 16px;
 }
@@ -42,21 +42,12 @@ div.container4 {
 }
 
 input[type=text] {
-    width: 30%;
+    width: 50%;
     padding: 12px 10px;
     box-sizing: border-box;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-right: 200px;
     margin-left: 200px;
-}
-
-input[type=submit] {
-    width: 15%;
-    padding: 12px 10px;
-    box-sizing: border-box;
-    margin-bottom: 50px;
-    margin-right: 310px;
-    margin-left: 310px;
 }
 
 .form-signin {
@@ -66,6 +57,19 @@ input[type=submit] {
   background-color: #eee;
   border: 3px dotted rgba(0,0,0,0.1);  
   }
+			
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+	width: 250px;
+}
 
 .button {
     border: none;
@@ -84,29 +88,27 @@ input[type=submit] {
 }
 
 .buttonS {
-    background-color:#3e4750; /* Green */
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 8px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
 	margin-top: -50px;
 	margin-bottom: 100px;
-    margin-right: 310px;
+    margin-right: 330px;
     margin-left: 330px;
 }
-.buttonX {width: 50px;}
-.button1{background-color: #3e4750;}
-
-
-input {
-  font-family: inherit;
-  color: inherit;
-  @include box-sizing(border-box);
-}
+.buttonX {width: 140px;}
+.button1{background-color: #1E90FF;}
+.button2{background-color: #DB7093;}
+.button3{background-color: #00FA9A;}
+.button4{background-color: #DA70D6;}
+.button5{background-color: #40E0D0;}
+.button6{background-color: #696969;}
 
 .colorgraph {
   height: 7px;

@@ -17,6 +17,10 @@
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="assetss/demo.css">
+	<link rel="stylesheet" href="assetss/header-basic.css">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -51,36 +55,93 @@
 	<!-- container -->
 	<div class="container">
 
-		<div class="row">
+		
 			
 			<!-- Article main content -->
-			<article class="col-xs-12 maincontent">
+			
 				<header class="page-header">
-					<h1 class="page-title">Judul Halaman</h1>
+					<h1 class="form-signin-heading">Banda Aceh >> Langsa</h1>
+					<h5 class="form-signin-heading">20 September 2016, 1 Penumpang</h5>
 				</header>
 				
-				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-				contoh isi
-						<div class="row">
-				<div class="col-md-6 col-sm-6 highlight">
-					<div class="h-caption"><h4><i class="fa fa-cogs fa-5"></i>Bootstrap-powered</h4></div>
-					<div class="h-body text-center">
-						<p>contoh isi</p>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 highlight">
-					<div class="h-caption"><h4><i class="fa fa-flash fa-5"></i>Fat-free</h4></div>
-					<div class="h-body text-center">
-						<p>contoh isi</p>
-					</div>
-				</div>
-			</div>
+				<div>
+					<div id="table">
+					<div class="header-row row">
+					<span class="cell primary">Jam Berangkat</span>
+					<span class="cell">Jam Tiba</span>
+					 <span class="cell">Perusahaan</span>
+					<span class="cell">Harga</span>
+					<span class="cell">Pilih Kursi</span>
+				  </div>
+				  <div class="row">
+					<input type="radio" name="expand">
+					<span class="cell primary" data-label="Vehicle">20.15 WIB</span>
+					<span class="cell" data-label="Exterior">22.30 WIB</span>
+					 <span class="cell" data-label="Interior">CV. Bahtera</span>
+					 <span class="cell" data-label="Engine">Rp. 120.000</span>
+					<span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
+				  </div>
+				  <div class="row">
+					<input type="radio" name="expand">
+					<span class="cell primary" data-label="Vehicle">08.30 WIB</span>
+					<span class="cell" data-label="Exterior">18.10 WIB</span>
+					 <span class="cell" data-label="Interior">CV. Sawang</span>
+					 <span class="cell" data-label="Engine">Rp. 135.000</span>
+					 <span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
+				  </div>
+				  <div class="row">
+					<input type="radio" name="expand">
+					<span class="cell primary" data-label="Vehicle">14.15 WIB</span>
+					<span class="cell" data-label="Exterior">23.30</span>
+					 <span class="cell" data-label="Interior">CV. Mutiara Express</span>
+					 <span class="cell" data-label="Engine">Rp. 199.900</span>
+					 <span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
+				  </div>
+				  <div class="row">
+					<input type="radio" name="expand">
+					<span class="cell primary" data-label="Vehicle">20.15 WIB</span>
+					<span class="cell" data-label="Exterior">05.30 WIB</span>
+					 <span class="cell" data-label="Interior">CV. Thomas</span>
+					 <span class="cell" data-label="Engine">Rp. 121.000</span>
+					 <span class="cell" data-label="Trans"> <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Pilih</button><br><button type="button" class="btn btn-default">Pesan</button></span>
+				  </div>
 				</div>
 				
-			</article>
-			<!-- /Article -->
-
-		</div>
+					<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pilih Kursi</h4>
+        </div>
+        <div class="modal-body">
+		<p>Untuk membatalkan, klik kembali kursi yang telah dipilih.</p>
+		  <img src="setir.png" height="30" width="30"></img>
+          <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img><br><br></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img><br><br></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img></a>
+		  <a href="list_tiket.html"><img src="seat.png" height="30" width="30"></img><br></a>
+		  <p>*Nomor kursi dapat berubah sesuai kebijakan operator</p>
+		  
+		  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+				</div>
 	</div>	<!-- /container -->
 	
 
