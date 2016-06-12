@@ -1,7 +1,7 @@
 /* Header */
-#head { background:#181015 url( ../images/bg_header1.jpg) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:400; }
+#head { background:#FFF no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
-	#head .lead { font-family:"Open sans", Helvetica, Arial;font-weight:400; font-size:44px; margin-bottom:6px; color:#e95420; line-height:1.15em; } 
+	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:6px; color:white; line-height:1.15em; } 
 	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
 		#head .tagline a { color:#fff; } 
 	#head .btn { margin-bottom:10px;}
@@ -15,6 +15,48 @@
 	#head { min-height:420px; padding-top:160px; }
 	#head .lead { font-size: 34px; }
 }
+
+
+/*********Style Untuk Form Login*************/
+
+.form-login{
+    margin-top: 2%;
+}
+.outter-form-login {
+    padding: 20px;
+    background: #99CC99;
+    position: relative;
+    border-radius: 5px;
+}
+.logo-login {
+    position: absolute;
+    font-size: 35px;
+    background: #21A957;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    top: -40px;
+    border-radius: 50%;
+    left: 43%;
+}
+.inner-login .form-control {
+    background: #fff;
+}
+h3.title-login {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.forget {
+    margin-top: 20px;
+    color: #ADADAD;
+}
+.btn-custom-green {
+    background: #21A957;
+    color: #fff;
+}
+
+/*********End Style Untuk Form Login*************/
 
 
 /* Autohide navbar */
@@ -34,7 +76,7 @@
 h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
 h1, .h1, h2, .h2, h3, .h3 { margin-top:30px; } 
 blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0 30px; }
-label { color: black; }
+label { color: #777; }
 .thin { font-weight:300; }
 .page-title { margin-top:20px; font-weight:300; }
 .text-muted { color:#888; }
