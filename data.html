@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="RPL - KEL 1">
+	
+	<title>L300</title>
+
+	<link rel="shortcut icon" href="assets/images/logo1.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo1.png" alt="E-Ticket" width="120px"  height="60px" "> E-Ticket</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="pesan.html">Data Pemesanan</a></li>
+					<li><a href="data.html">Kirim Data</a></li>					
+					<li class="active"><a class="btn" href="index.html">Log Out</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<div class="row">
+			
+			<!-- Article main content -->
+			<article class="col-xs-12 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Daftar Pemesanan Tiket</h1>
+				</header>
+				
+				
+    	<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Data Pemesanan</h3>
+						<div class="pull-right">
+						</div>
+					</div>
+					<div class="panel-body">
+						<div class="container">
+	  						<form class="form-horizontal" role="form">
+	    						<div class="form-group">
+	      							<label class="control-label col-sm-1" for="ex2">Tanggal:</label>
+	      							<div class="col-sm-2">
+	        							<input type="date"class="form-control" id="ex2">
+	      							</div>
+	      							<label class="control-label col-sm-5" for="ex2">CV. Abal</label>
+	      							<div class="col-xs-4">
+	      								<img src="aa.png" class="img-thumbnail"  width="100" height="150">
+	      							</div>
+	    						</div>
+	    					</form>
+	    				</div>
+      				</div>
+					<table class="table table-hover" id="dev-table">
+						<thead>
+							<tr>
+								<th></th>
+								<th><center>Name</center></th>
+								<th><center>Asal</center></th>
+								<th><center>Tujuan</center></th>
+								<th><center>Jam Keberangkatan</center></th>
+								<th><center>Keterangan</center></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<div class="checkbox">
+  										<label><input type="checkbox" value=""></label>
+									</div>
+								</td>
+								<td><center>B_blood</center></td>
+								<td><center>Banda Aceh</center></td>
+								<td><center>Meulaboh</center></td>
+								<td><center>08.00</center></td>
+								<td><center>Lunas</center></td>
+							</tr>
+							<tr>
+								<td>
+									<div class="checkbox">
+  										<label><input type="checkbox" value=""></label>
+									</div>
+								</td>
+								<td><center>A_blood</center></td>
+								<td><center>Langsa</center></td>
+								<td><center>Medan</center></td>
+								<td><center>10.00</center></td>
+								<td><center>Belum Lunas</center></td>
+							</tr>
+							<tr>
+								<td>
+									<div class="checkbox">
+  										<label><input type="checkbox" value=""></label>
+									</div>
+								</td>
+								<td><center>O_blood</center></td>
+								<td><center>Banda Aceh</center></td>
+								<td><center>Meulaboh</center></td>
+								<td><center>08.00</center></td>
+								<td><center>Belum lunas</center></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>		
+				</div>
+				<div class="container">
+		<form class="form-horizontal" role="form">
+		    <div class="form-group">
+		    	<label class="control-label col-sm-5" for="ex2">Pilih Supir:</label>
+			    <div class="col-sm-3">
+			        <select class="form-control" id="ex2">
+			        	<option>Budiman</option>
+			        	<option>Murdani</option>
+			        	<option>Sayuti</option>
+			        	<option>Munawar</option>
+			      	</select> 
+			    </div>
+			    <div class="col-xs-4">
+			    	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Send</button>
+			    	<!-- Modal -->
+					  <div class="modal fade" id="myModal" role="dialog">
+					    <div class="modal-dialog modal-sm">
+					      <div class="modal-content">
+					        <div class="modal-body">
+					          <button type="button" class="close" data-dismiss="modal">&times;</button>
+					          <p><center> Sending . . .</center></p>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+			    </div>
+		    </div>
+	    </form>
+	</div>
+				
+			</article>
+			<!-- /Article -->
+
+		</div>
+	</div>	<!-- /container -->
+	
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p><i class="fa fa-phone"></i> +62 8527 661 1491<br>
+								<a href="mailto:#"><i class="fa fa-envelope"></i> admin@e-ticket.com</a><br>
+								<br>
+								<i class="fa fa-map-marker"></i> Jl. Syech Abdurrauf No. 10, Gedung Lab. Terpadu Lt. 3 Kopelma Darussalam, Banda Aceh, 23111
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow us</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons clearfix">
+								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Tentang Kami</h3>
+						<div class="widget-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores, quibusdam architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi ad id expedita cupiditate repellendus possimus unde?</p>
+							<p>Eius consequatur nihil quibusdam! Laborum, rerum, quis, inventore ipsa autem repellat provident assumenda labore soluta minima alias temporibus facere distinctio quas adipisci nam sunt explicabo officia tenetur at ea quos doloribus dolorum voluptate reprehenderit architecto sint libero illo et hic.</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="#">Home</a> | 
+								<a href="about.html">About</a> |
+								<a href="sidebar-right.html">Sidebar</a> |
+								<a href="contact.html">Contact</a> |
+								<b><a href="signup.html">Sign up</a></b>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2016, Kelompok 1 - RPL. Designed by <a href="http://ridhaaulia.id/" rel="designer">Kelompok 1 - RPL</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+	</footer>			
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
