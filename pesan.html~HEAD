@@ -85,15 +85,9 @@
 												</tr>
 												<tr>
 													<td>
-<<<<<<< HEAD
-													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Detail</button>
-													<!-- Modal -->
-													  <div class="modal fade" id="myModal" role="dialog">
-=======
 													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#ira" >Detail</button>
 													<!-- Modal -->
 													  <div class="modal fade" id="ira" role="dialog">
->>>>>>> Ira
 													    <div class="modal-dialog modal-sm">
 													      <div class="modal-content">
 													        <div class="modal-header">
@@ -179,15 +173,9 @@
 												</tr>
 												<tr>
 													<td>
-<<<<<<< HEAD
-													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Detail</button>
-													<!-- Modal -->
-													  <div class="modal fade" id="myModal" role="dialog">
-=======
 													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#A_blood">Detail</button>
 													<!-- Modal -->
 													  <div class="modal fade" id="A_blood" role="dialog">
->>>>>>> Ira
 													    <div class="modal-dialog modal-sm">
 													      <div class="modal-content">
 													        <div class="modal-header">
@@ -273,15 +261,9 @@
 												</tr>
 												<tr>
 													<td>
-<<<<<<< HEAD
-													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Detail</button>
-													<!-- Modal -->
-													  <div class="modal fade" id="myModal" role="dialog">
-=======
 													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#ridha">Detail</button>
 													<!-- Modal -->
 													  <div class="modal fade" id="ridha" role="dialog">
->>>>>>> Ira
 													    <div class="modal-dialog modal-sm">
 													      <div class="modal-content">
 													        <div class="modal-header">
@@ -298,11 +280,7 @@
 																		<td>Jam Berangkat</td> <td>:</td> <td> 10.00</td>
 																	</tr>
 																	<tr>
-<<<<<<< HEAD
-																		<td>Nama</td> <td>:</td> <td>A_blood</td>
-=======
 																		<td>Nama</td> <td>:</td> <td>Ridha Aulia</td>
->>>>>>> Ira
 																	</tr>
 																	<tr>
 																		<td>No. Handphone</td> <td>:</td> <td>08279034xxxx</td>
@@ -375,15 +353,9 @@
 											</tr>
 											<tr>
 													<td>
-<<<<<<< HEAD
-													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Detail</button>
-													<!-- Modal -->
-													  <div class="modal fade" id="myModal" role="dialog">
-=======
 													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#b">Detail</button>
 													<!-- Modal -->
 													  <div class="modal fade" id="b" role="dialog">
->>>>>>> Ira
 													    <div class="modal-dialog modal-sm">
 													      <div class="modal-content">
 													        <div class="modal-header">
@@ -469,15 +441,9 @@
 											</tr>
 											<tr>
 													<td>
-<<<<<<< HEAD
-													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Detail</button>
-													<!-- Modal -->
-													  <div class="modal fade" id="myModal" role="dialog">
-=======
 													<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#o">Detail</button>
 													<!-- Modal -->
 													  <div class="modal fade" id="o" role="dialog">
->>>>>>> Ira
 													    <div class="modal-dialog modal-sm">
 													      <div class="modal-content">
 													        <div class="modal-header">
