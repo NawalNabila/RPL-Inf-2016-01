@@ -13,7 +13,7 @@
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
+
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -50,23 +50,54 @@
 
 	<!-- container -->
 	<div class="container">
+
 		<div class="row">
+			
 			<!-- Article main content -->
 			<article class="col-xs-12 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">Download Tiket</h1>
+					<h1 class="page-title">Login Admin</h1>
 				</header>
         
 				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                    <h4 class="center">Download Tiket Anda Disini</h4>
-                    <img src="assets/images/ticket.png" style="width:554px;height:264px">
-                    <br><br>
-				    <p class="center"><a class="btn btn-action btn-lg" role="button">DOWNLOAD</a></p>
+                    
+				    <div class="outter-form-login">
+                        <div class="logo-login">
+                            <em class="glyphicon glyphicon-user"></em>
+                        </div>
+                        <form action="check-login.php" class="inner-login" method="post">
+                            <h3 class="text-center title-login">Login Admin</h3>
+                            <p class="text-center text-muted">Belum terdaftar? Klik <a href="register.html">Register</a>.</p>
+                            <hr>
+                            <div class="form-group">
+                                <select class="form-control" name="layanan" required>
+                                    <option value="1">Pilih Layanan</option>
+                                    <option value="1">Pelayan Loket</option>
+                                    <option value="2">Supir</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="username" placeholder="Username" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="password" placeholder="Password" required>
+                            </div>
+                            
+                            <a class="btn btn-block btn-custom-green" href=#>LOGIN </a>
+                            <div class="text-center forget">
+                                <a href="">Forgot password?</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </article>
 			<!-- /Article -->
+
 		</div>
 	</div>	<!-- /container -->
+	
 
 	<footer id="footer" class="top-space">
 
@@ -137,8 +168,7 @@
 			</div>
 		</div>
 	</footer>			
-		
-    
+
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
