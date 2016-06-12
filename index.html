@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE HTML>
-<html>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,30 +6,291 @@
 	<meta name="description" content="">
 	<meta name="author"      content="">
 	
-	<title>E - Ticket </title>
+	<title>E - Ticket</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
->>>>>>> ridhaaulia
 
-<head>
-    <title> Utama - Admin </title>
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
 </head>
 
-<body> 
-    <table border="0">
+<body class="home">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo1.png" alt="E-Ticket" width="120px"  height="60px" "> E-Ticket</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="carapesan.html">Cara Pemesanan</a></li>					
+					<li><a href="cektiket.html">Cek Pesanan</a></li>
+					<li><a href="bantuan.html">Bantuan</a></li>
+					<li><a class="btn" href="login.html">Masuk / Daftar</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
 
-        <tr><th>Daftar Anggota</th></tr>
-		<tr><th><a href="ridha.html">Ridha</a></th></tr>
-		<tr><th><a href="nabil.html">Nabil</a></th></tr>
-		<tr><th><a href="indah.html">Indah</a></th></tr>
-		<tr><th><a href="ira.html">Ira</a></th></tr>
-		<tr><td> <a href="renny.html">Renny</td></tr>
+	<!-- Header -->
+	<header id="head">
+		<div class="container">
+			<div class="row">
+				<h1 class="lead">Cari dan pesan tiket L-300 disini!</h1>
+				
+				<form>
+				<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+                <div class="form-group">
+	                <label><i class="fa fa-chevron-right"></i> Kota Keberangkatan</label>
+		              <select class="form-control selectpicker show-menu-arrow">                      
+			           <option value="">Pilih Tujuan</option>                        
+			            <optgroup label="Aceh">
+			            <option value="ABD" data-subtext="Aceh">Banda Aceh</option>
+			            <option value="ACBE" data-subtext="Aceh">Langsa</option>
+			            <option value="ACBE" data-subtext="Aceh">Sigli</option>
+			            <option value="ACBE" data-subtext="Aceh">Lhokseumawe</option>
+			            <option value="ACBE" data-subtext="Aceh">Tapak Tuan</option>
+			            <option value="ACBE" data-subtext="Aceh">Aceh Tamiang</option>
+			            <option value="ACBE" data-subtext="Aceh">Kutacane</option></optgroup>
+			            <optgroup label="Sumatra Utara">
+			            <option value="ABD" data-subtext="Sumatra Utara">Medan</option>
+			            <option value="ACBE" data-subtext="Sumatra Utara">Padang Sidempuan</option>
+						<option value="ACBE" data-subtext="Sumatra Utara">Sibolga</option>
+			            </optgroup>
+			         </select>
+			    </div>                  
+            	</div>
+            	<div class="col-md-4">
+                <div class="form-group">
+	                <label><i class="fa fa-chevron-right"></i> Kota Tujuan</label>
+			            <select class="form-control selectpicker show-menu-arrow">                      
+			           <option value="">Pilih Tujuan</option>                        
+			            <optgroup label="Aceh">
+			            <option value="ABD" data-subtext="Aceh">Banda Aceh</option>
+			            <option value="ACBE" data-subtext="Aceh">Langsa</option>
+			            <option value="ACBE" data-subtext="Aceh">Sigli</option>
+			            <option value="ACBE" data-subtext="Aceh">Lhokseumawe</option>
+			            <option value="ACBE" data-subtext="Aceh">Tapak Tuan</option>
+			            <option value="ACBE" data-subtext="Aceh">Aceh Tamiang</option>
+			            <option value="ACBE" data-subtext="Aceh">Kutacane</option></optgroup>
+			            <optgroup label="Sumatra Utara">
+			            <option value="ABD" data-subtext="Sumatra Utara">Medan</option>
+			            <option value="ACBE" data-subtext="Sumatra Utara">Padang Sidempuan</option>
+						<option value="ACBE" data-subtext="Sumatra Utara">Sibolga</option>
+			            </optgroup>
+			         </select>
+		        </div>                  
+            	</div>
+            	</div>
+            	<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<div class="form-group">
+		                <label>Tanggal Keberangkatan</label><br>
+			               <input type="date" class="form-control" name="tglberangkat">
+			        </div>
+            	</div>
+            	<div class="col-md-4">
+               		<label>Jumlah Tiket</label><br>
+					<input type="number" class="form-control" name="jumlahtiket" placeholder="Jumlah Tiket">                           	
+            	</div>
+            	</div>
 
-    </table>
+				</form>
+				            	<div class="col-md-4"></div>
+            	   	<div class="col-xs-4">
+            	   	<br>
+          				<a href="list_tiket.html"><button type="submit" class="btn btn-primary btn-lg" ><i class="fa fa-search"></i> Cari Jadwal Perjalanan</button></a>
+        			</div>
+			</div>
+		</div>
+	</header>
+	<!-- /Header -->
+
+	<!-- Intro -->
+	<div class="container text-center">
+		<br> <br>
+		<h2 class="thin">Tempat Terbaik untuk membeli tiket hanya disini!</h2>
+		<p class="text-muted">
+			Anda bisa pesan tiket s/d 60 hari sebelum keberangkatan.
+		</p>
+	</div>
+	<!-- /Intro-->
+		
+	<!-- Highlights - jumbotron -->
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">Kenapa Harus Beli Tiket di E-ticket.com ?</h3>
+			
+			<div class="row">
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-thumbs-up fa-5"></i>Mudah</h4></div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-flash fa-5"></i>Cepat</h4></div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-money fa-5"></i>Harga Terbaik</h4></div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-smile-o fa-5"></i>Customer Support 24/7</h4></div>
+				</div>
+			</div> <!-- /row  -->
+		
+		</div>
+	</div>
+	<!-- /Highlights -->
+
+	<!-- container -->
+	<div class="container">
+
+		<h2 class="text-center top-space">Testimoni</h2>
+		<br>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<h3><b>Ghufran Mochammad</b> - Mhs. Informatika Unsyiah 2014</h3>
+				<p>Tempat pembelian tiket yang bagus yang dan sangat direkomendasikan</p>
+			</div>
+			<div class="col-sm-6">
+				<h3><b>M. Ariefzky</b> - Mhs. Informatika Unsyiah 2014</h3>
+				<p>
+					Mudah dan cepat.</p>
+			</div>
+		</div> <!-- /row -->
+
+		<div class="row">
+			<div class="col-sm-6">
+				<h3><b>Baba</b> - Mhs. Teknik Nuklir</h3>
+				<p>
+					Cepat dan murah, saya sangat bahagia. 
+				</p>
+			</div>
+			<div class="col-sm-6">
+				<h3><b>Tawan Faris</b> - Anak Kos</h3>
+				<p>Pelayanan yang sangat baik telah diberikan oleh E-ticket ini.</p>
+			</div>
+		</div> <!-- /row -->		
+
+</div>	<!-- /container -->
+	
+	<!-- Social links. @TODO: replace by link/instructions in template -->
+	<section id="social">
+		<div class="container">
+			<div class="wrapper clearfix">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+				<a class="addthis_button_tweet"></a>
+				<a class="addthis_button_linkedin_counter"></a>
+				<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+				</div>
+				<!-- AddThis Button END -->
+			</div>
+		</div>
+	</section>
+	<!-- /social links -->
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p><i class="fa fa-phone"></i> +62 8527 661 1491<br>
+								<a href="mailto:#"><i class="fa fa-envelope"></i> admin@e-ticket.com</a><br>
+								<br>
+								<i class="fa fa-map-marker"></i> Jl. Syech Abdurrauf No. 10, Gedung Lab. Terpadu Lt. 3 Kopelma Darussalam, Banda Aceh, 23111
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow me</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Tentang Kami</h3>
+						<div class="widget-body">
+							<p>Mengapa anda harus memesan tiket L300 melalui e-Ticket?</p>
+							<p>Itu karena kami memberikan kemudahan kepada anda dari segi waktu dalam melakukan pemesanan tiket L300 dan dengan kenyamanan penumpang yang selalu kami jaga.</p>
+							<p>e-Ticket adalah aplikasi pembelian tiket L300 online berbasis web yang dapat digunakan oleh siapapun, kapanpun dan dimanapun. Kami menyediakan pilihan CV, kursi, serta jam dan tanggal keberangkatan.</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="#">Home</a> | 
+								<a href="about.html">About</a> |
+								<a href="sidebar-right.html">Sidebar</a> |
+								<a href="contact.html">Contact</a> |
+								<b><a href="signup.html">Sign up</a></b>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2016, Kelompok 1 - RPL. Designed by <a href="http://ridhaaulia.id/" rel="designer">Kelompok 1 - RPL</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
 </body>
-
 </html>
